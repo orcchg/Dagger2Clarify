@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/bind_instance" />
+            <option value="$PROJECT_DIR$/bind_optional" />
+            <option value="$PROJECT_DIR$/component_builder" />
+            <option value="$PROJECT_DIR$/component_dependency" />
+            <option value="$PROJECT_DIR$/component_expose" />
+            <option value="$PROJECT_DIR$/component_inject" />
+            <option value="$PROJECT_DIR$/component_production" />
+            <option value="$PROJECT_DIR$/component_scoped" />
+            <option value="$PROJECT_DIR$/direct_inject" />
+            <option value="$PROJECT_DIR$/error_circular" />
+            <option value="$PROJECT_DIR$/error_provides" />
+            <option value="$PROJECT_DIR$/error_scoping" />
+            <option value="$PROJECT_DIR$/lazy_inject" />
+            <option value="$PROJECT_DIR$/module" />
+            <option value="$PROJECT_DIR$/module_3rdparty" />
+            <option value="$PROJECT_DIR$/module_config" />
+            <option value="$PROJECT_DIR$/module_interface" />
+            <option value="$PROJECT_DIR$/module_qualifier" />
+            <option value="$PROJECT_DIR$/provide_inject" />
+            <option value="$PROJECT_DIR$/provide_lazy_inject" />
+            <option value="$PROJECT_DIR$/releasable" />
+            <option value="$PROJECT_DIR$/scope" />
+            <option value="$PROJECT_DIR$/scope_aliasing" />
+            <option value="$PROJECT_DIR$/scope_reusable" />
+            <option value="$PROJECT_DIR$/scope_singleton" />
+            <option value="$PROJECT_DIR$/subcomponent" />
+            <option value="$PROJECT_DIR$/subcomponent_builder" />
+            <option value="$PROJECT_DIR$/subcomponent_multiscoped" />
+            <option value="$PROJECT_DIR$/subcomponent_via_module" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

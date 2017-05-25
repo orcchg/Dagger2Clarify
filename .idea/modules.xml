@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bind_instance.iml" filepath="$PROJECT_DIR$/.idea/modules/bind_instance.iml" group="bind_instance" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bind_instance/bind_instance_main.iml" filepath="$PROJECT_DIR$/.idea/modules/bind_instance/bind_instance_main.iml" group="bind_instance" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bind_instance/bind_instance_test.iml" filepath="$PROJECT_DIR$/.idea/modules/bind_instance/bind_instance_test.iml" group="bind_instance" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bind_optional.iml" filepath="$PROJECT_DIR$/.idea/modules/bind_optional.iml" group="bind_optional" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bind_optional/bind_optional_main.iml" filepath="$PROJECT_DIR$/.idea/modules/bind_optional/bind_optional_main.iml" group="bind_optional" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bind_optional/bind_optional_test.iml" filepath="$PROJECT_DIR$/.idea/modules/bind_optional/bind_optional_test.iml" group="bind_optional" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/component_builder.iml" filepath="$PROJECT_DIR$/.idea/modules/component_builder.iml" group="component_builder" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/component_builder/component_builder_main.iml" filepath="$PROJECT_DIR$/.idea/modules/component_builder/component_builder_main.iml" group="component_builder" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/component_builder/component_builder_test.iml" filepath="$PROJECT_DIR$/.idea/modules/component_builder/component_builder_test.iml" group="component_builder" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/component_dependency.iml" filepath="$PROJECT_DIR$/.idea/modules/component_dependency.iml" group="component_dependency" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/component_dependency/component_dependency_main.iml" filepath="$PROJECT_DIR$/.idea/modules/component_dependency/component_dependency_main.iml" group="component_dependency" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/component_dependency/component_dependency_test.iml" filepath="$PROJECT_DIR$/.idea/modules/component_dependency/component_dependency_test.iml" group="component_dependency" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/component_expose.iml" filepath="$PROJECT_DIR$/.idea/modules/component_expose.iml" group="component_expose" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/component_expose/component_expose_main.iml" filepath="$PROJECT_DIR$/.idea/modules/component_expose/component_expose_main.iml" group="component_expose" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/component_expose/component_expose_test.iml" filepath="$PROJECT_DIR$/.idea/modules/component_expose/component_expose_test.iml" group="component_expose" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/component_inject.iml" filepath="$PROJECT_DIR$/.idea/modules/component_inject.iml" group="component_inject" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/component_inject/component_inject_main.iml" filepath="$PROJECT_DIR$/.idea/modules/component_inject/component_inject_main.iml" group="component_inject" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/component_inject/component_inject_test.iml" filepath="$PROJECT_DIR$/.idea/modules/component_inject/component_inject_test.iml" group="component_inject" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/component_production.iml" filepath="$PROJECT_DIR$/.idea/modules/component_production.iml" group="component_production" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/component_production/component_production_main.iml" filepath="$PROJECT_DIR$/.idea/modules/component_production/component_production_main.iml" group="component_production" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/component_production/component_production_test.iml" filepath="$PROJECT_DIR$/.idea/modules/component_production/component_production_test.iml" group="component_production" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/component_scoped.iml" filepath="$PROJECT_DIR$/.idea/modules/component_scoped.iml" group="component_scoped" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/component_scoped/component_scoped_main.iml" filepath="$PROJECT_DIR$/.idea/modules/component_scoped/component_scoped_main.iml" group="component_scoped" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/component_scoped/component_scoped_test.iml" filepath="$PROJECT_DIR$/.idea/modules/component_scoped/component_scoped_test.iml" group="component_scoped" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dagger2clarify.iml" filepath="$PROJECT_DIR$/.idea/modules/dagger2clarify.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dagger2clarify_main.iml" filepath="$PROJECT_DIR$/.idea/modules/dagger2clarify_main.iml" group="dagger2clarify" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dagger2clarify_test.iml" filepath="$PROJECT_DIR$/.idea/modules/dagger2clarify_test.iml" group="dagger2clarify" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/direct_inject.iml" filepath="$PROJECT_DIR$/.idea/modules/direct_inject.iml" group="direct_inject" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/direct_inject/direct_inject_main.iml" filepath="$PROJECT_DIR$/.idea/modules/direct_inject/direct_inject_main.iml" group="direct_inject" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/direct_inject/direct_inject_test.iml" filepath="$PROJECT_DIR$/.idea/modules/direct_inject/direct_inject_test.iml" group="direct_inject" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/error_circular.iml" filepath="$PROJECT_DIR$/.idea/modules/error_circular.iml" group="error_circular" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/error_circular/error_circular_main.iml" filepath="$PROJECT_DIR$/.idea/modules/error_circular/error_circular_main.iml" group="error_circular" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/error_circular/error_circular_test.iml" filepath="$PROJECT_DIR$/.idea/modules/error_circular/error_circular_test.iml" group="error_circular" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/error_provides.iml" filepath="$PROJECT_DIR$/.idea/modules/error_provides.iml" group="error_provides" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/error_provides/error_provides_main.iml" filepath="$PROJECT_DIR$/.idea/modules/error_provides/error_provides_main.iml" group="error_provides" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/error_provides/error_provides_test.iml" filepath="$PROJECT_DIR$/.idea/modules/error_provides/error_provides_test.iml" group="error_provides" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/error_scoping.iml" filepath="$PROJECT_DIR$/.idea/modules/error_scoping.iml" group="error_scoping" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/error_scoping/error_scoping_main.iml" filepath="$PROJECT_DIR$/.idea/modules/error_scoping/error_scoping_main.iml" group="error_scoping" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/error_scoping/error_scoping_test.iml" filepath="$PROJECT_DIR$/.idea/modules/error_scoping/error_scoping_test.iml" group="error_scoping" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lazy_inject.iml" filepath="$PROJECT_DIR$/.idea/modules/lazy_inject.iml" group="lazy_inject" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lazy_inject/lazy_inject_main.iml" filepath="$PROJECT_DIR$/.idea/modules/lazy_inject/lazy_inject_main.iml" group="lazy_inject" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lazy_inject/lazy_inject_test.iml" filepath="$PROJECT_DIR$/.idea/modules/lazy_inject/lazy_inject_test.iml" group="lazy_inject" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module.iml" filepath="$PROJECT_DIR$/.idea/modules/module.iml" group="module" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module_3rdparty.iml" filepath="$PROJECT_DIR$/.idea/modules/module_3rdparty.iml" group="module_3rdparty" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module_3rdparty/module_3rdparty_main.iml" filepath="$PROJECT_DIR$/.idea/modules/module_3rdparty/module_3rdparty_main.iml" group="module_3rdparty" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module_3rdparty/module_3rdparty_test.iml" filepath="$PROJECT_DIR$/.idea/modules/module_3rdparty/module_3rdparty_test.iml" group="module_3rdparty" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module_config.iml" filepath="$PROJECT_DIR$/.idea/modules/module_config.iml" group="module_config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module_config/module_config_main.iml" filepath="$PROJECT_DIR$/.idea/modules/module_config/module_config_main.iml" group="module_config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module_config/module_config_test.iml" filepath="$PROJECT_DIR$/.idea/modules/module_config/module_config_test.iml" group="module_config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module_interface.iml" filepath="$PROJECT_DIR$/.idea/modules/module_interface.iml" group="module_interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module_interface/module_interface_main.iml" filepath="$PROJECT_DIR$/.idea/modules/module_interface/module_interface_main.iml" group="module_interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module_interface/module_interface_test.iml" filepath="$PROJECT_DIR$/.idea/modules/module_interface/module_interface_test.iml" group="module_interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module/module_main.iml" filepath="$PROJECT_DIR$/.idea/modules/module/module_main.iml" group="module" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module_qualifier.iml" filepath="$PROJECT_DIR$/.idea/modules/module_qualifier.iml" group="module_qualifier" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module_qualifier/module_qualifier_main.iml" filepath="$PROJECT_DIR$/.idea/modules/module_qualifier/module_qualifier_main.iml" group="module_qualifier" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module_qualifier/module_qualifier_test.iml" filepath="$PROJECT_DIR$/.idea/modules/module_qualifier/module_qualifier_test.iml" group="module_qualifier" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module/module_test.iml" filepath="$PROJECT_DIR$/.idea/modules/module/module_test.iml" group="module" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/provide_inject.iml" filepath="$PROJECT_DIR$/.idea/modules/provide_inject.iml" group="provide_inject" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/provide_inject/provide_inject_main.iml" filepath="$PROJECT_DIR$/.idea/modules/provide_inject/provide_inject_main.iml" group="provide_inject" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/provide_inject/provide_inject_test.iml" filepath="$PROJECT_DIR$/.idea/modules/provide_inject/provide_inject_test.iml" group="provide_inject" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/provide_lazy_inject.iml" filepath="$PROJECT_DIR$/.idea/modules/provide_lazy_inject.iml" group="provide_lazy_inject" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/provide_lazy_inject/provide_lazy_inject_main.iml" filepath="$PROJECT_DIR$/.idea/modules/provide_lazy_inject/provide_lazy_inject_main.iml" group="provide_lazy_inject" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/provide_lazy_inject/provide_lazy_inject_test.iml" filepath="$PROJECT_DIR$/.idea/modules/provide_lazy_inject/provide_lazy_inject_test.iml" group="provide_lazy_inject" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/releasable.iml" filepath="$PROJECT_DIR$/.idea/modules/releasable.iml" group="releasable" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/releasable/releasable_main.iml" filepath="$PROJECT_DIR$/.idea/modules/releasable/releasable_main.iml" group="releasable" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/releasable/releasable_test.iml" filepath="$PROJECT_DIR$/.idea/modules/releasable/releasable_test.iml" group="releasable" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scope.iml" filepath="$PROJECT_DIR$/.idea/modules/scope.iml" group="scope" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scope_aliasing.iml" filepath="$PROJECT_DIR$/.idea/modules/scope_aliasing.iml" group="scope_aliasing" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scope_aliasing/scope_aliasing_main.iml" filepath="$PROJECT_DIR$/.idea/modules/scope_aliasing/scope_aliasing_main.iml" group="scope_aliasing" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scope_aliasing/scope_aliasing_test.iml" filepath="$PROJECT_DIR$/.idea/modules/scope_aliasing/scope_aliasing_test.iml" group="scope_aliasing" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scope/scope_main.iml" filepath="$PROJECT_DIR$/.idea/modules/scope/scope_main.iml" group="scope" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scope_reusable.iml" filepath="$PROJECT_DIR$/.idea/modules/scope_reusable.iml" group="scope_reusable" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scope_reusable/scope_reusable_main.iml" filepath="$PROJECT_DIR$/.idea/modules/scope_reusable/scope_reusable_main.iml" group="scope_reusable" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scope_reusable/scope_reusable_test.iml" filepath="$PROJECT_DIR$/.idea/modules/scope_reusable/scope_reusable_test.iml" group="scope_reusable" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scope_singleton.iml" filepath="$PROJECT_DIR$/.idea/modules/scope_singleton.iml" group="scope_singleton" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scope_singleton/scope_singleton_main.iml" filepath="$PROJECT_DIR$/.idea/modules/scope_singleton/scope_singleton_main.iml" group="scope_singleton" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scope_singleton/scope_singleton_test.iml" filepath="$PROJECT_DIR$/.idea/modules/scope_singleton/scope_singleton_test.iml" group="scope_singleton" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scope/scope_test.iml" filepath="$PROJECT_DIR$/.idea/modules/scope/scope_test.iml" group="scope" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/subcomponent.iml" filepath="$PROJECT_DIR$/.idea/modules/subcomponent.iml" group="subcomponent" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/subcomponent_builder.iml" filepath="$PROJECT_DIR$/.idea/modules/subcomponent_builder.iml" group="subcomponent_builder" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/subcomponent_builder/subcomponent_builder_main.iml" filepath="$PROJECT_DIR$/.idea/modules/subcomponent_builder/subcomponent_builder_main.iml" group="subcomponent_builder" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/subcomponent_builder/subcomponent_builder_test.iml" filepath="$PROJECT_DIR$/.idea/modules/subcomponent_builder/subcomponent_builder_test.iml" group="subcomponent_builder" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/subcomponent/subcomponent_main.iml" filepath="$PROJECT_DIR$/.idea/modules/subcomponent/subcomponent_main.iml" group="subcomponent" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/subcomponent_multiscoped.iml" filepath="$PROJECT_DIR$/.idea/modules/subcomponent_multiscoped.iml" group="subcomponent_multiscoped" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/subcomponent_multiscoped/subcomponent_multiscoped_main.iml" filepath="$PROJECT_DIR$/.idea/modules/subcomponent_multiscoped/subcomponent_multiscoped_main.iml" group="subcomponent_multiscoped" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/subcomponent_multiscoped/subcomponent_multiscoped_test.iml" filepath="$PROJECT_DIR$/.idea/modules/subcomponent_multiscoped/subcomponent_multiscoped_test.iml" group="subcomponent_multiscoped" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/subcomponent/subcomponent_test.iml" filepath="$PROJECT_DIR$/.idea/modules/subcomponent/subcomponent_test.iml" group="subcomponent" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/subcomponent_via_module.iml" filepath="$PROJECT_DIR$/.idea/modules/subcomponent_via_module.iml" group="subcomponent_via_module" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/subcomponent_via_module/subcomponent_via_module_main.iml" filepath="$PROJECT_DIR$/.idea/modules/subcomponent_via_module/subcomponent_via_module_main.iml" group="subcomponent_via_module" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/subcomponent_via_module/subcomponent_via_module_test.iml" filepath="$PROJECT_DIR$/.idea/modules/subcomponent_via_module/subcomponent_via_module_test.iml" group="subcomponent_via_module" />
+    </modules>
+  </component>
+</project>

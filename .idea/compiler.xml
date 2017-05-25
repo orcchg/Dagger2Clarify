@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="bind_instance_main" target="1.8" />
+      <module name="bind_instance_test" target="1.8" />
+      <module name="bind_optional_main" target="1.8" />
+      <module name="bind_optional_test" target="1.8" />
+      <module name="component_builder_main" target="1.8" />
+      <module name="component_builder_test" target="1.8" />
+      <module name="component_dependency_main" target="1.8" />
+      <module name="component_dependency_test" target="1.8" />
+      <module name="component_expose_main" target="1.8" />
+      <module name="component_expose_test" target="1.8" />
+      <module name="component_inject_main" target="1.8" />
+      <module name="component_inject_test" target="1.8" />
+      <module name="component_production_main" target="1.8" />
+      <module name="component_production_test" target="1.8" />
+      <module name="component_scoped_main" target="1.8" />
+      <module name="component_scoped_test" target="1.8" />
+      <module name="dagger2clarify_main" target="1.8" />
+      <module name="dagger2clarify_test" target="1.8" />
+      <module name="direct_inject_main" target="1.8" />
+      <module name="direct_inject_test" target="1.8" />
+      <module name="error_circular_main" target="1.8" />
+      <module name="error_circular_test" target="1.8" />
+      <module name="error_provides_main" target="1.8" />
+      <module name="error_provides_test" target="1.8" />
+      <module name="error_scoping_main" target="1.8" />
+      <module name="error_scoping_test" target="1.8" />
+      <module name="lazy_inject_main" target="1.8" />
+      <module name="lazy_inject_test" target="1.8" />
+      <module name="module_3rdparty_main" target="1.8" />
+      <module name="module_3rdparty_test" target="1.8" />
+      <module name="module_config_main" target="1.8" />
+      <module name="module_config_test" target="1.8" />
+      <module name="module_interface_main" target="1.8" />
+      <module name="module_interface_test" target="1.8" />
+      <module name="module_main" target="1.8" />
+      <module name="module_qualifier_main" target="1.8" />
+      <module name="module_qualifier_test" target="1.8" />
+      <module name="module_test" target="1.8" />
+      <module name="provide_inject_main" target="1.8" />
+      <module name="provide_inject_test" target="1.8" />
+      <module name="provide_lazy_inject_main" target="1.8" />
+      <module name="provide_lazy_inject_test" target="1.8" />
+      <module name="releasable_main" target="1.8" />
+      <module name="releasable_test" target="1.8" />
+      <module name="scope_aliasing_main" target="1.8" />
+      <module name="scope_aliasing_test" target="1.8" />
+      <module name="scope_main" target="1.8" />
+      <module name="scope_reusable_main" target="1.8" />
+      <module name="scope_reusable_test" target="1.8" />
+      <module name="scope_singleton_main" target="1.8" />
+      <module name="scope_singleton_test" target="1.8" />
+      <module name="scope_test" target="1.8" />
+      <module name="subcomponent_builder_main" target="1.8" />
+      <module name="subcomponent_builder_test" target="1.8" />
+      <module name="subcomponent_main" target="1.8" />
+      <module name="subcomponent_multiscoped_main" target="1.8" />
+      <module name="subcomponent_multiscoped_test" target="1.8" />
+      <module name="subcomponent_test" target="1.8" />
+      <module name="subcomponent_via_module_main" target="1.8" />
+      <module name="subcomponent_via_module_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
