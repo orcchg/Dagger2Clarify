@@ -5,6 +5,9 @@
     <content url="file://$MODULE_DIR$/../../direct_inject">
       <excludeFolder url="file://$MODULE_DIR$/../../direct_inject/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../direct_inject/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../direct_inject/build/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../../direct_inject/build/libs" />
+      <excludeFolder url="file://$MODULE_DIR$/../../direct_inject/build/tmp" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
