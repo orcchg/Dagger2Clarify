@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":direct_inject:test" external.linked.project.path="$MODULE_DIR$/../../../direct_inject" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="com.orcchg.dagger2clarify" external.system.module.type="sourceSet" external.system.module.version="1.0" type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":module_dependency:test" external.linked.project.path="$MODULE_DIR$/../../../module_dependency" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="com.orcchg.dagger2clarify" external.system.module.type="sourceSet" external.system.module.version="1.0" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output-test url="file://$MODULE_DIR$/../../../direct_inject/build/classes/test" />
+    <output-test url="file://$MODULE_DIR$/../../../module_dependency/build/classes/test" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../direct_inject/build/generated/source/apt/test">
-      <sourceFolder url="file://$MODULE_DIR$/../../../direct_inject/build/generated/source/apt/test" isTestSource="true" generated="true" />
+    <content url="file://$MODULE_DIR$/../../../module_dependency/build/generated/source/apt/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../module_dependency/build/generated/source/apt/test" isTestSource="true" generated="true" />
     </content>
-    <content url="file://$MODULE_DIR$/../../../direct_inject/src/test">
-      <sourceFolder url="file://$MODULE_DIR$/../../../direct_inject/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../direct_inject/src/test/resources" type="java-test-resource" />
+    <content url="file://$MODULE_DIR$/../../../module_dependency/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../module_dependency/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../module_dependency/src/test/resources" type="java-test-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="direct_inject_main" />
+    <orderEntry type="module" module-name="module_dependency_main" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.dagger:dagger-compiler:2.11-rc2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.errorprone:javac:9-dev-r3297-1-shaded" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.guava:guava:21.0" level="project" />
@@ -25,5 +25,5 @@
     <orderEntry type="library" name="Gradle: junit:junit:4.12" level="project" />
     <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
   </component>
-  <component name="TestModuleProperties" production-module="direct_inject_main" />
+  <component name="TestModuleProperties" production-module="module_dependency_main" />
 </module>

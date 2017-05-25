@@ -3,7 +3,7 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="distributionType" value="LOCAL" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleHome" value="$USER_HOME$/Soft/gradle-3.5" />
         <option name="gradleJvm" value="1.8" />
@@ -18,6 +18,7 @@
             <option value="$PROJECT_DIR$/component_inject" />
             <option value="$PROJECT_DIR$/component_production" />
             <option value="$PROJECT_DIR$/component_scoped" />
+            <option value="$PROJECT_DIR$/dependency" />
             <option value="$PROJECT_DIR$/direct_inject" />
             <option value="$PROJECT_DIR$/error_circular" />
             <option value="$PROJECT_DIR$/error_provides" />
@@ -26,6 +27,7 @@
             <option value="$PROJECT_DIR$/module" />
             <option value="$PROJECT_DIR$/module_3rdparty" />
             <option value="$PROJECT_DIR$/module_config" />
+            <option value="$PROJECT_DIR$/module_dependency" />
             <option value="$PROJECT_DIR$/module_interface" />
             <option value="$PROJECT_DIR$/module_qualifier" />
             <option value="$PROJECT_DIR$/provide_inject" />
@@ -41,7 +43,6 @@
             <option value="$PROJECT_DIR$/subcomponent_via_module" />
           </set>
         </option>
-        <option name="useAutoImport" value="true" />
       </GradleProjectSettings>
     </option>
   </component>
