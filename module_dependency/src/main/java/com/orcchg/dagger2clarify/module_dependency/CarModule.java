@@ -8,6 +8,7 @@ public class CarModule {
 
     @Provides
     Car provideCar(Engine engine) {
+        System.out.println("Module::provideCar");
         return new Car(engine);
     }
 }

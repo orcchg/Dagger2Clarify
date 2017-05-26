@@ -5,6 +5,9 @@
     <content url="file://$MODULE_DIR$/../../dependency">
       <excludeFolder url="file://$MODULE_DIR$/../../dependency/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../dependency/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../dependency/build/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../../dependency/build/libs" />
+      <excludeFolder url="file://$MODULE_DIR$/../../dependency/build/tmp" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
