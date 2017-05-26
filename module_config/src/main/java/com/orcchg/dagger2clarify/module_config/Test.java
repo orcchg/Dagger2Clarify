@@ -8,5 +8,7 @@ public class Test {
                 .carModule(new CarModule("Opel Astra"))
                 .build();
         component.car().drive();
+        component.car().drive();
+        component.car().drive();
     }
 }
