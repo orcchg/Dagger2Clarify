@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aca8c7aa-1b2d-48ca-afa5-e15189a97976" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/provide_inject/src/main/java/com/orcchg/dagger2clarify/provide_inject/Car.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/provide_inject/src/main/java/com/orcchg/dagger2clarify/provide_inject/CarComponent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/provide_inject/src/main/java/com/orcchg/dagger2clarify/provide_inject/Engine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/provide_inject/src/main/java/com/orcchg/dagger2clarify/provide_inject/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lazy_inject/src/main/java/com/orcchg/dagger2clarify/lazy_inject/Car.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lazy_inject/src/main/java/com/orcchg/dagger2clarify/lazy_inject/CarComponent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lazy_inject/src/main/java/com/orcchg/dagger2clarify/lazy_inject/Engine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lazy_inject/src/main/java/com/orcchg/dagger2clarify/lazy_inject/Test.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/dagger2clarify_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/dagger2clarify_main.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/dagger2clarify_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/dagger2clarify_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/dependency/dependency_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/dependency/dependency_main.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/dependency/dependency_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/dependency/dependency_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/direct_inject/direct_inject_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/direct_inject/direct_inject_main.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/direct_inject/direct_inject_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/direct_inject/direct_inject_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/lazy_inject/lazy_inject_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/lazy_inject/lazy_inject_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/lazy_inject/lazy_inject_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/lazy_inject/lazy_inject_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/module_config/module_config_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/module_config/module_config_main.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/module_config/module_config_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/module_config/module_config_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/module_dependency/module_dependency_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/module_dependency/module_dependency_main.iml" />
@@ -19,7 +21,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/provide_inject/provide_inject_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/provide_inject/provide_inject_main.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/provide_inject/provide_inject_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/provide_inject/provide_inject_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/provide_inject/build.gradle" afterPath="$PROJECT_DIR$/provide_inject/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lazy_inject/build.gradle" afterPath="$PROJECT_DIR$/lazy_inject/build.gradle" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/libs/" />
@@ -116,11 +118,21 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="Car.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/direct_inject/src/main/java/com/orcchg/dagger2clarify/direct_inject/Car.java">
+          <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/module_config/build.gradle">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="80">
-                  <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+                <state relative-caret-position="640">
+                  <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lazy_inject/build.gradle">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="620">
+                  <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -140,27 +152,17 @@
             <entry file="file://$PROJECT_DIR$/provide_inject/build/generated/source/apt/main/com/orcchg/dagger2clarify/provide_inject/DaggerCarComponent.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="340">
-                  <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+                  <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Engine.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/provide_inject/src/main/java/com/orcchg/dagger2clarify/provide_inject/Engine.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="220">
-                  <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Car.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Car.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/provide_inject/src/main/java/com/orcchg/dagger2clarify/provide_inject/Car.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="100">
-                  <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+                <state relative-caret-position="340">
+                  <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -169,51 +171,53 @@
             </entry>
           </file>
           <file leaf-file-name="CarComponent.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/provide_inject/src/main/java/com/orcchg/dagger2clarify/provide_inject/CarComponent.java">
+            <entry file="file://$PROJECT_DIR$/lazy_inject/src/main/java/com/orcchg/dagger2clarify/lazy_inject/CarComponent.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="100">
-                  <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Car.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/module_dependency/src/main/java/com/orcchg/dagger2clarify/module_dependency/Car.java">
+          <file leaf-file-name="Engine.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lazy_inject/src/main/java/com/orcchg/dagger2clarify/lazy_inject/Engine.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="40">
-                  <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/module_dependency/src/main/java/com/orcchg/dagger2clarify/module_dependency/Test.java">
+            <entry file="file://$PROJECT_DIR$/lazy_inject/src/main/java/com/orcchg/dagger2clarify/lazy_inject/Test.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="120">
-                  <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+                  <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="DaggerCarComponent.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/module_dependency/build/generated/source/apt/main/com/orcchg/dagger2clarify/module_dependency/DaggerCarComponent.java">
+          <file leaf-file-name="DaggerCarComponent.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/lazy_inject/build/generated/source/apt/main/com/orcchg/dagger2clarify/lazy_inject/DaggerCarComponent.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="540">
-                  <caret line="44" column="30" lean-forward="false" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+                <state relative-caret-position="780">
+                  <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CarModule.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/module_dependency/src/main/java/com/orcchg/dagger2clarify/module_dependency/CarModule.java">
+          <file leaf-file-name="Car.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lazy_inject/src/main/java/com/orcchg/dagger2clarify/lazy_inject/Car.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="260">
-                  <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-                  <folding />
+                <state relative-caret-position="360">
+                  <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -276,7 +280,7 @@
             <entry file="file://$PROJECT_DIR$/provide_inject/build.gradle">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="340">
-                  <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+                  <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -286,7 +290,7 @@
             <entry file="file://$PROJECT_DIR$/direct_inject/src/main/java/com/orcchg/dagger2clarify/direct_inject/Test.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="120">
-                  <caret line="6" column="45" lean-forward="true" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+                  <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
                   <folding />
                 </state>
               </provider>
@@ -4672,9 +4676,10 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="50854122515000" />
+        <entry key="$PROJECT_DIR$" value="50854212323000" />
         <entry key="$PROJECT_DIR$/dependency/build.gradle" value="383865385" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="1114575256" />
+        <entry key="$PROJECT_DIR$/lazy_inject/build.gradle" value="383865385" />
         <entry key="$PROJECT_DIR$/provide_inject/build.gradle" value="383865385" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="3864135680" />
       </map>
@@ -5241,6 +5246,8 @@
         <option value="$PROJECT_DIR$/provide_inject/build.gradle" />
         <option value="$PROJECT_DIR$/provide_inject/src/main/java/com/orcchg/dagger2clarify/provide_inject/Car.java" />
         <option value="$PROJECT_DIR$/provide_inject/src/main/java/com/orcchg/dagger2clarify/provide_inject/Test.java" />
+        <option value="$PROJECT_DIR$/lazy_inject/build.gradle" />
+        <option value="$PROJECT_DIR$/lazy_inject/src/main/java/com/orcchg/dagger2clarify/lazy_inject/Car.java" />
       </list>
     </option>
   </component>
@@ -5460,6 +5467,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="lazy_inject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dagger2clarify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dagger2clarify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lazy_inject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lazy_inject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dagger2clarify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dagger2clarify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="direct_inject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -5545,6 +5596,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lazy_inject/src/main/java/com/orcchg/dagger2clarify/lazy_inject" />
       <recent name="$PROJECT_DIR$/provide_inject/src/main/java/com/orcchg/dagger2clarify/provide_inject" />
       <recent name="$PROJECT_DIR$/dependency/src/main/java/com/orcchg/dagger2clarify/dependency" />
     </key>
@@ -5561,7 +5613,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (2)">
+  <component name="RunManager" selected="Application.Test (3)">
     <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -5619,6 +5671,26 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="provide_inject_main" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.orcchg.dagger2clarify.lazy_inject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.orcchg.dagger2clarify.lazy_inject.Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="lazy_inject_main" />
       <envs />
       <method />
     </configuration>
@@ -5764,16 +5836,18 @@
       <listeners />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Test" />
       <item index="1" class="java.lang.String" itemvalue="Application.Test (1)" />
       <item index="2" class="java.lang.String" itemvalue="Application.Test (2)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Test (3)" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.Test (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Test (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.Test (3)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Test (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Test (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Test" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
@@ -6027,7 +6101,7 @@
     <entry file="file://$PROJECT_DIR$/provide_inject/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -6043,7 +6117,7 @@
     <entry file="file://$PROJECT_DIR$/direct_inject/src/main/java/com/orcchg/dagger2clarify/direct_inject/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="6" column="45" lean-forward="true" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+          <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -6059,18 +6133,76 @@
     <entry file="file://$PROJECT_DIR$/provide_inject/build/generated/source/apt/main/com/orcchg/dagger2clarify/provide_inject/DaggerCarComponent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/provide_inject/src/main/java/com/orcchg/dagger2clarify/provide_inject/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="340">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lazy_inject/src/main/java/com/orcchg/dagger2clarify/lazy_inject/CarComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lazy_inject/src/main/java/com/orcchg/dagger2clarify/lazy_inject/Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_config/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lazy_inject/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lazy_inject/src/main/java/com/orcchg/dagger2clarify/lazy_inject/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lazy_inject/src/main/java/com/orcchg/dagger2clarify/lazy_inject/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lazy_inject/build/generated/source/apt/main/com/orcchg/dagger2clarify/lazy_inject/DaggerCarComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
