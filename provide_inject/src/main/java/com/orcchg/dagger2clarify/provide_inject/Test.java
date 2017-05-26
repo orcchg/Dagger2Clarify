@@ -6,5 +6,7 @@ public class Test {
         System.out.println("*** provider_inject ***");
         CarComponent component = DaggerCarComponent.create();
         component.car().drive();
+        component.car().drive();
+        component.car().drive();
     }
 }

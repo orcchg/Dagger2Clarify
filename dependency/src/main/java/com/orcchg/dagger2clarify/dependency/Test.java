@@ -6,5 +6,7 @@ public class Test {
         System.out.println("*** dependency ***");
         CarComponent component = DaggerCarComponent.create();
         component.car().drive();
+        component.car().drive();
+        component.car().drive();
     }
 }
