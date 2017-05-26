@@ -1,12 +1,13 @@
-package com.orcchg.dagger2clarify.module_direct_inject_fixed;
+package com.orcchg.dagger2clarify.component_inject;
+
+import javax.inject.Inject;
 
 public class Car {
 
-    private final Engine engine;
+    @Inject Engine engine;
 
-    Car(Engine engine) {
+    Car() {
         System.out.println("Car::ctor");
-        this.engine = engine;
     }
 
     void drive() {

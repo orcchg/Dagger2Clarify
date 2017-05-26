@@ -6,11 +6,9 @@ import dagger.Provides;
 @Module
 public class CarModule {
 
-    private static int id = 0;
-
     @Provides
     Car provideCar() {
-        System.out.println("Module::provideCar, id = " + id);
-        return new Car(id++);
+        System.out.println("Module::provideCar");
+        return new Car();
     }
 }

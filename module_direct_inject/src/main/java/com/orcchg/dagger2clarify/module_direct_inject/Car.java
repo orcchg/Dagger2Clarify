@@ -6,15 +6,12 @@ public class Car {
 
     @Inject Engine engine;
 
-    private final int id;
-
-    Car(int id) {
-        System.out.println("Car::ctor(" + id + ")");
-        this.id = id;
+    Car() {
+        System.out.println("Car::ctor");
     }
 
     void drive() {
-        System.out.println("Car::drive, id = " + id);
+        System.out.println("Car::drive");
         engine.start();
     }
 }
