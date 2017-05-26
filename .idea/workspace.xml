@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aca8c7aa-1b2d-48ca-afa5-e15189a97976" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dependency/src/main/java/com/orcchg/dagger2clarify/dependency/Test.java" afterPath="$PROJECT_DIR$/dependency/src/main/java/com/orcchg/dagger2clarify/dependency/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/direct_inject/src/main/java/com/orcchg/dagger2clarify/direct_inject/Test.java" afterPath="$PROJECT_DIR$/direct_inject/src/main/java/com/orcchg/dagger2clarify/direct_inject/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lazy_inject/src/main/java/com/orcchg/dagger2clarify/lazy_inject/Test.java" afterPath="$PROJECT_DIR$/lazy_inject/src/main/java/com/orcchg/dagger2clarify/lazy_inject/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/provide_inject/src/main/java/com/orcchg/dagger2clarify/provide_inject/Test.java" afterPath="$PROJECT_DIR$/provide_inject/src/main/java/com/orcchg/dagger2clarify/provide_inject/Test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/libs/" />
@@ -133,16 +130,6 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/module_direct_inject/build.gradle">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="399">
-                      <caret line="26" column="46" lean-forward="false" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
               <file leaf-file-name="Engine.java" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/module_direct_inject/src/main/java/com/orcchg/dagger2clarify/module_direct_inject/Engine.java">
                   <provider selected="true" editor-type-id="text-editor">
@@ -163,11 +150,21 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="DaggerCarComponent.java" pinned="false" current-in-tab="true">
+              <file leaf-file-name="DaggerCarComponent.java" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/module_direct_inject/build/generated/source/apt/main/com/orcchg/dagger2clarify/module_direct_inject/DaggerCarComponent.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="220">
-                      <caret line="29" column="77" lean-forward="false" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
+                    <state relative-caret-position="520">
+                      <caret line="46" column="36" lean-forward="false" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/README.md">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="120">
+                      <caret line="6" column="285" lean-forward="false" selection-start-line="6" selection-start-column="285" selection-end-line="6" selection-end-column="285" />
                       <folding />
                     </state>
                   </provider>
@@ -197,7 +194,7 @@
                 <entry file="file://$PROJECT_DIR$/dependency/src/main/java/com/orcchg/dagger2clarify/dependency/Test.java">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="240">
-                      <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+                      <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
                       <folding />
                     </state>
                   </provider>
@@ -241,7 +238,7 @@
                 <entry file="file://$PROJECT_DIR$/provide_inject/src/main/java/com/orcchg/dagger2clarify/provide_inject/Test.java">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="240">
-                      <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+                      <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
                       <folding />
                     </state>
                   </provider>
@@ -309,7 +306,7 @@
                 <entry file="file://$PROJECT_DIR$/direct_inject/src/main/java/com/orcchg/dagger2clarify/direct_inject/CarComponent.java">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="180">
-                      <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+                      <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
                       <folding />
                     </state>
                   </provider>
@@ -338,8 +335,8 @@
               <file leaf-file-name="DaggerCarComponent.java" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/direct_inject/build/generated/source/apt/main/com/orcchg/dagger2clarify/direct_inject/DaggerCarComponent.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="40">
-                      <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+                    <state relative-caret-position="440">
+                      <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
                       <folding />
                     </state>
                   </provider>
@@ -353,7 +350,7 @@
                 <entry file="file://$PROJECT_DIR$/module_config/src/main/java/com/orcchg/dagger2clarify/module_config/CarModule.java">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="80">
-                      <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+                      <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
                       <folding />
                     </state>
                   </provider>
@@ -5770,6 +5767,7 @@
         <option value="$PROJECT_DIR$/provide_inject/src/main/java/com/orcchg/dagger2clarify/provide_inject/Test.java" />
         <option value="$PROJECT_DIR$/lazy_inject/src/main/java/com/orcchg/dagger2clarify/lazy_inject/Test.java" />
         <option value="$PROJECT_DIR$/dependency/src/main/java/com/orcchg/dagger2clarify/dependency/Test.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -6284,14 +6282,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/module_dependency/src/main/java/com/orcchg/dagger2clarify/module_dependency/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module_config/src/main/java/com/orcchg/dagger2clarify/module_config/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -6580,7 +6570,7 @@
     <entry file="file://$PROJECT_DIR$/provide_inject/src/main/java/com/orcchg/dagger2clarify/provide_inject/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -6588,7 +6578,7 @@
     <entry file="file://$PROJECT_DIR$/module_config/src/main/java/com/orcchg/dagger2clarify/module_config/CarModule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -6617,14 +6607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module_direct_inject/src/main/java/com/orcchg/dagger2clarify/module_direct_inject/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dependency/src/main/java/com/orcchg/dagger2clarify/dependency/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -6636,7 +6618,7 @@
     <entry file="file://$PROJECT_DIR$/direct_inject/src/main/java/com/orcchg/dagger2clarify/direct_inject/CarComponent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -6644,15 +6626,7 @@
     <entry file="file://$PROJECT_DIR$/dependency/src/main/java/com/orcchg/dagger2clarify/dependency/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module_direct_inject/src/main/java/com/orcchg/dagger2clarify/module_direct_inject/Engine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -6661,14 +6635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module_direct_inject/build/generated/source/apt/main/com/orcchg/dagger2clarify/module_direct_inject/DaggerCarComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="29" column="77" lean-forward="false" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
           <folding />
         </state>
       </provider>
@@ -6697,10 +6663,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/module_direct_inject/build/generated/source/apt/main/com/orcchg/dagger2clarify/module_direct_inject/DaggerCarComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="46" column="36" lean-forward="false" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/direct_inject/build/generated/source/apt/main/com/orcchg/dagger2clarify/direct_inject/DaggerCarComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="440">
+          <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_direct_inject/src/main/java/com/orcchg/dagger2clarify/module_direct_inject/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_direct_inject/src/main/java/com/orcchg/dagger2clarify/module_direct_inject/Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="285" lean-forward="false" selection-start-line="6" selection-start-column="285" selection-end-line="6" selection-end-column="285" />
           <folding />
         </state>
       </provider>
