@@ -4,6 +4,10 @@ Sample project that demonstrates various aspects of Dagger 2 through a set of ex
 
 It's very useful to compile samples and dive into generated Dagger's classes, and compare those for different samples to understand what is under the hood.
 
+### component_dependency
+
+Car has inject ctor and requires Transmission, which in turn hasn't inject ctor. TransmissionModule provides an instance of Transmission, which is exposed from the object graph of TransmissionComponent. Car instance resides in the object graph of CarComponent. In order to obtain Transmission instance for Car, components should be involved into dependency. Note, that Transmission instance must be exposed in order to be used by CarComponent. See also **subcomponent** for alternative approach.
+
 ### component_expose
 
 Engine has inject ctor. Car has inject ctor and injectable field for Engine. Component exposes Car instance in object graph for accessibility. Same as **direct_inject**.
