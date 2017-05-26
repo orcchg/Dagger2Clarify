@@ -8,7 +8,7 @@ It's very useful to compile samples and dive into generated Dagger's classes, an
 
 Engine has inject ctor. Car hasn't, but it requires Engine to be injected into field. Component uses members-injection method to inject Engine instance create by inject ctor into engine field in Car instance.
 
-Another way to satisfy dependency on Engine of Car is to use Module which is aware of Engine ctor, like shown in **module_direct_inject** (package *_fixed*).
+Another way to satisfy dependency on Engine of Car is to use Module which is aware of Engine ctor, like shown in **module_dependency** or **module_direct_inject** (package *_fixed*).
 
 ### direct_inject
 
@@ -26,7 +26,7 @@ Engine has inject ctor. Car has inject ctor and injectable field for Engine. Mod
 
 Engine has inject ctor. Car hasn't, but has an injectable field for Engine. Module is responsible for instantiation of Car. Component implementation relies on Module when a Car instance is requested, so it doesn't inject an Engine instance by itself, like it does in **direct_inject**. This leads to NPE when accessing engine field in Car instance.
 
-Version in *_fixed* package eliminates NPE by passing an Engine instance into Module for provides-method, making Dagger aware of this dependency. Note, how DaggerCarComponent implementation has changed.
+Sample **module_dependency** (or version in *_fixed* package) eliminates NPE by passing an Engine instance into Module for provides-method, making Dagger aware of this dependency. Note, how DaggerCarComponent implementation has changed.
 
 Another way to satisfy dependency on Engine of Car is to use members-injection method in Component, like shown in **component_inject**.
 
