@@ -30,4 +30,7 @@ include 'error_provides'
 include 'error_circular'
 include 'error_scoping'
 include 'dependency'
+include 'module_provider_inject'
+include 'module_lazy_inject'
+include 'module_direct_inject'
 

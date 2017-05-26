@@ -28,7 +28,10 @@
             <option value="$PROJECT_DIR$/module_3rdparty" />
             <option value="$PROJECT_DIR$/module_config" />
             <option value="$PROJECT_DIR$/module_dependency" />
+            <option value="$PROJECT_DIR$/module_direct_inject" />
             <option value="$PROJECT_DIR$/module_interface" />
+            <option value="$PROJECT_DIR$/module_lazy_inject" />
+            <option value="$PROJECT_DIR$/module_provider_inject" />
             <option value="$PROJECT_DIR$/module_qualifier" />
             <option value="$PROJECT_DIR$/provide_inject" />
             <option value="$PROJECT_DIR$/provide_lazy_inject" />

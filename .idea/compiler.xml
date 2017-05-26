@@ -38,9 +38,15 @@
       <module name="module_config_test" target="1.8" />
       <module name="module_dependency_main" target="1.8" />
       <module name="module_dependency_test" target="1.8" />
+      <module name="module_direct_inject_main" target="1.8" />
+      <module name="module_direct_inject_test" target="1.8" />
       <module name="module_interface_main" target="1.8" />
       <module name="module_interface_test" target="1.8" />
+      <module name="module_lazy_inject_main" target="1.8" />
+      <module name="module_lazy_inject_test" target="1.8" />
       <module name="module_main" target="1.8" />
+      <module name="module_provider_inject_main" target="1.8" />
+      <module name="module_provider_inject_test" target="1.8" />
       <module name="module_qualifier_main" target="1.8" />
       <module name="module_qualifier_test" target="1.8" />
       <module name="module_test" target="1.8" />
