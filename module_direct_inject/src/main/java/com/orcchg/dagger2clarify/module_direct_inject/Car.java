@@ -8,7 +8,6 @@ public class Car {
 
     private final int id;
 
-    @Inject
     Car(int id) {
         System.out.println("Car::ctor(" + id + ")");
         this.id = id;

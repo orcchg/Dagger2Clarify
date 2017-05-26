@@ -1,12 +1,9 @@
 package com.orcchg.dagger2clarify.module_config;
 
-import javax.inject.Inject;
-
 public class Car {
 
     private final String label;
 
-    @Inject
     Car(String label) {
         System.out.println("Car::ctor");
         this.label = label;
