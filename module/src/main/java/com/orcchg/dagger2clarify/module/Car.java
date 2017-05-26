@@ -1,4 +1,4 @@
-package com.orcchg.dagger2clarify.module_config;
+package com.orcchg.dagger2clarify.module;
 
 public class Car {
 

@@ -14,6 +14,10 @@ Another way to satisfy dependency on Engine of Car is to use Module which is awa
 
 Engine has inject ctor. Car has inject ctor and injectable field for Engine. Component wires them.
 
+### module
+
+Car has configurable inject ctor with primitive parameter. Module is responsible for instantiation of Car with parameter. Component relies on Module. Module provides both parameter and a Car instance. See also *_car_inject_ctor* package to provide Car implicitly.
+
 ### module_config
 
 Car has configurable inject ctor with primitive parameter. Module is responsible for instantiation of Car with parameter. Component relies on Module. Module must be specified while building Component, because it has non-trivial configurable ctor.
