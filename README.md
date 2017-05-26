@@ -1,3 +1,9 @@
+# Dagger 2 Clarify
+
+Sample project that demonstrates various aspects of Dagger 2 through a set of extremely easy isolated samples. Each sample illustrates a particular Dagger's feature and doesn't interfere with the others.
+
+It's very useful to compile samples and dive into generated Dagger's classes, and compare those for different samples to understand what is under the hood.
+
 ### direct_inject
 
 Engine has inject ctor. Car has inject ctor and injectable field for Engine. Component wires them.

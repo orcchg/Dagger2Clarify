@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aca8c7aa-1b2d-48ca-afa5-e15189a97976" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module_interface/src/main/java/com/orcchg/dagger2clarify/module_interface/Car.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module_interface/src/main/java/com/orcchg/dagger2clarify/module_interface/CarComponent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module_interface/src/main/java/com/orcchg/dagger2clarify/module_interface/CarModule.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module_interface/src/main/java/com/orcchg/dagger2clarify/module_interface/CarburatorEngine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module_interface/src/main/java/com/orcchg/dagger2clarify/module_interface/Engine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module_interface/src/main/java/com/orcchg/dagger2clarify/module_interface/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module_interface/src/main/java/com/orcchg/dagger2clarify_module_interface_engine_ctor_wo_inject/Car.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module_interface/src/main/java/com/orcchg/dagger2clarify_module_interface_engine_ctor_wo_inject/CarComponent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module_interface/src/main/java/com/orcchg/dagger2clarify_module_interface_engine_ctor_wo_inject/CarModule.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module_interface/src/main/java/com/orcchg/dagger2clarify_module_interface_engine_ctor_wo_inject/CarburatorEngine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module_interface/src/main/java/com/orcchg/dagger2clarify_module_interface_engine_ctor_wo_inject/Engine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module_interface/src/main/java/com/orcchg/dagger2clarify_module_interface_engine_ctor_wo_inject/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_config/src/main/java/com/orcchg/dagger2clarify/module_config/Car.java" afterPath="$PROJECT_DIR$/module_config/src/main/java/com/orcchg/dagger2clarify/module_config/Car.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_direct_inject/src/main/java/com/orcchg/dagger2clarify/module_direct_inject/Car.java" afterPath="$PROJECT_DIR$/module_direct_inject/src/main/java/com/orcchg/dagger2clarify/module_direct_inject/Car.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_direct_inject/src/main/java/com/orcchg/dagger2clarify/module_direct_inject_fixed/Car.java" afterPath="$PROJECT_DIR$/module_direct_inject/src/main/java/com/orcchg/dagger2clarify/module_direct_inject_fixed/Car.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module_interface/build.gradle" afterPath="$PROJECT_DIR$/module_interface/build.gradle" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/libs/" />
@@ -398,8 +381,8 @@
                 <entry file="file://$PROJECT_DIR$/README.md">
                   <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                     <state split_layout="SPLIT">
-                      <first_editor relative-caret-position="296">
-                        <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+                      <first_editor relative-caret-position="100">
+                        <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
                         <folding />
                       </first_editor>
                       <second_editor />
@@ -6833,11 +6816,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/module_interface/src/main/java/com/orcchg/dagger2clarify/module_interface/CarModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="296">
-            <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <first_editor relative-caret-position="100">
+            <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -6847,16 +6840,6 @@
         <state relative-caret-position="20">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module_interface/src/main/java/com/orcchg/dagger2clarify/module_interface/CarModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
