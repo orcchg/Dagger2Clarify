@@ -115,7 +115,7 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.41425818">
       <split-first>
         <splitter split-orientation="vertical" split-proportion="0.70216775">
           <split-first>
@@ -143,7 +143,7 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="CarModule.java" pinned="false" current-in-tab="true">
+              <file leaf-file-name="CarModule.java" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/module_interface/src/main/java/com/orcchg/dagger2clarify/module_interface/CarModule.java">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="400">
@@ -151,6 +151,26 @@
                       <folding>
                         <element signature="imports" expanded="true" />
                       </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="Car.java" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/module_dependency/src/main/java/com/orcchg/dagger2clarify/module_dependency/Car.java">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="40">
+                      <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="Engine.java" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/module_dependency/src/main/java/com/orcchg/dagger2clarify/module_dependency/Engine.java">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="80">
+                      <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+                      <folding />
                     </state>
                   </provider>
                 </entry>
@@ -165,11 +185,11 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="Car.java" pinned="false" current-in-tab="false">
+              <file leaf-file-name="Car.java" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/module_direct_inject/src/main/java/com/orcchg/dagger2clarify/module_direct_inject/Car.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="400">
-                      <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+                    <state relative-caret-position="80">
+                      <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
                       <folding />
                     </state>
                   </provider>
@@ -185,31 +205,11 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/module_interface/build.gradle">
+              <file leaf-file-name="CarModule.java" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/module_direct_inject/src/main/java/com/orcchg/dagger2clarify/module_direct_inject/CarModule.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="260">
-                      <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/direct_inject/build.gradle">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="380">
-                      <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="Engine.java" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/module_interface/src/main/java/com/orcchg/dagger2clarify/module_interface/Engine.java">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="40">
-                      <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+                    <state relative-caret-position="100">
+                      <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
                       <folding />
                     </state>
                   </provider>
@@ -381,8 +381,8 @@
                 <entry file="file://$PROJECT_DIR$/README.md">
                   <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                     <state split_layout="SPLIT">
-                      <first_editor relative-caret-position="100">
-                        <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+                      <first_editor relative-caret-position="256">
+                        <caret line="20" column="154" lean-forward="false" selection-start-line="20" selection-start-column="154" selection-end-line="20" selection-end-column="154" />
                         <folding />
                       </first_editor>
                       <second_editor />
@@ -5903,7 +5903,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="provide_inject" />
+              <option name="myItemId" value="module_direct_inject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -5917,39 +5917,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="provide_inject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dagger2clarify" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dagger2clarify" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module_interface" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dagger2clarify" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dagger2clarify" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module_interface" />
+              <option name="myItemId" value="module_direct_inject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -5965,11 +5933,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="orcchg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dagger2clarify_module_interface_engine_ctor_wo_inject" />
+              <option name="myItemId" value="dagger2clarify" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -5983,7 +5947,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="module_interface" />
+              <option name="myItemId" value="module_direct_inject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -5999,25 +5963,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="orcchg" />
+              <option name="myItemId" value="dagger2clarify" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="module_interface" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dagger2clarify" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dagger2clarify" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="direct_inject" />
+              <option name="myItemId" value="module_direct_inject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -6031,7 +5981,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="direct_inject" />
+              <option name="myItemId" value="module_dependency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dagger2clarify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dagger2clarify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module_dependency" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -6047,7 +6011,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="direct_inject" />
+              <option name="myItemId" value="module_dependency" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -6406,16 +6370,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/module_lazy_inject/src/main/java/com/orcchg/dagger2clarify/module_lazy_inject/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module_direct_inject/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -6486,14 +6440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module_direct_inject/src/main/java/com/orcchg/dagger2clarify/module_direct_inject/CarModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -6596,14 +6542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module_dependency/src/main/java/com/orcchg/dagger2clarify/module_dependency/CarModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module_dependency/src/main/java/com/orcchg/dagger2clarify/module_dependency/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -6680,22 +6618,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module_direct_inject/src/main/java/com/orcchg/dagger2clarify/module_direct_inject_fixed/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module_direct_inject/src/main/java/com/orcchg/dagger2clarify/module_direct_inject/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module_dependency/src/main/java/com/orcchg/dagger2clarify/module_dependency/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -6826,11 +6748,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/module_dependency/src/main/java/com/orcchg/dagger2clarify/module_dependency/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_dependency/src/main/java/com/orcchg/dagger2clarify/module_dependency/CarModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_dependency/src/main/java/com/orcchg/dagger2clarify/module_dependency/Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_direct_inject/src/main/java/com/orcchg/dagger2clarify/module_direct_inject/CarModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_direct_inject/src/main/java/com/orcchg/dagger2clarify/module_direct_inject/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="100">
-            <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <first_editor relative-caret-position="256">
+            <caret line="20" column="154" lean-forward="false" selection-start-line="20" selection-start-column="154" selection-end-line="20" selection-end-column="154" />
             <folding />
           </first_editor>
           <second_editor />
