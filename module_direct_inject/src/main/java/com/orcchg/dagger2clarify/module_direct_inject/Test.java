@@ -6,7 +6,5 @@ public class Test {
         System.out.println("*** module_direct_inject ***");
         CarComponent component = DaggerCarComponent.create();
         component.car().drive();
-        component.car().drive();
-        component.car().drive();
     }
 }
